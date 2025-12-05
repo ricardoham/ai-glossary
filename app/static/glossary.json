@@ -1,0 +1,284 @@
+{
+  "glossary": [
+    {
+      "id": "ai",
+      "term": "Artificial Intelligence (AI)",
+      "category": "Core Concepts",
+      "shortDefinition": "The field focused on building systems that perform tasks that normally require human intelligence.",
+      "longDefinition": "Artificial Intelligence (AI) is an umbrella term for techniques that allow computers to perceive, reason, learn and act. It includes subareas such as machine learning, natural language processing, computer vision and planning. In practice, AI powers applications like recommendation systems, chatbots, fraud detection, and autonomous vehicles."
+    },
+    {
+      "id": "ai-winter",
+      "term": "AI Winter",
+      "category": "History of AI",
+      "shortDefinition": "Periods in which enthusiasm, funding, and research progress in artificial intelligence dramatically declined.",
+      "longDefinition": "AI Winter refers to multiple periods in the history of artificial intelligence when expectations failed to match technological capability, leading to reduced funding, skepticism, and institutional abandonment of AI research. Major AI Winters occurred in the 1970s and late 1980s, driven by unmet promises in symbolic reasoning, hardware limitations, and disappointing practical outcomes of early AI systems. These downturns slowed innovation temporarily but ultimately reshaped the field, leading to later breakthroughs in machine learning, neural networks, and modern AI."
+    },
+    {
+      "id": "ml",
+      "term": "Machine Learning (ML)",
+      "category": "Core Concepts",
+      "shortDefinition": "A subfield of AI where models learn patterns from data instead of being explicitly programmed.",
+      "longDefinition": "Machine Learning (ML) focuses on algorithms that improve automatically through experience. Instead of coding all the rules by hand, we provide examples (data) and let the model learn patterns that map inputs to outputs. Common tasks include classification, regression, clustering, and anomaly detection."
+    },
+    {
+      "id": "deep-learning",
+      "term": "Deep Learning",
+      "category": "Core Concepts",
+      "shortDefinition": "A family of machine learning methods using neural networks with many layers.",
+      "longDefinition": "Deep Learning relies on deep neural networks composed of multiple layers of artificial neurons. These architectures can automatically learn complex representations from raw data such as images, audio, and text. They are behind breakthroughs in image recognition, speech recognition, and large language models."
+    },
+    {
+      "id": "neural-network",
+      "term": "Neural Network",
+      "category": "Models",
+      "shortDefinition": "A computational model inspired by biological neurons, organized in layers.",
+      "longDefinition": "A neural network consists of interconnected units (neurons) arranged in layers. Each neuron computes a weighted sum of its inputs, applies a non-linear activation function, and passes the result forward. By stacking many layers and training the weights on data, neural networks can approximate highly complex functions."
+    },
+    {
+      "id": "dataset",
+      "term": "Dataset",
+      "category": "Data",
+      "shortDefinition": "A structured collection of data used for training, validation, or testing.",
+      "longDefinition": "In machine learning, a dataset is a curated collection of examples. It is usually divided into training, validation, and test sets. Good datasets must be representative, well-labeled (for supervised learning), and aligned with the real-world scenario where the model will be deployed."
+    },
+    {
+      "id": "inference",
+      "term": "Inference",
+      "category": "Lifecycle",
+      "shortDefinition": "The phase where a trained model is used to make predictions.",
+      "longDefinition": "After a model is trained, we use it in production to generate predictions or decisions based on new data. This phase is called inference. It often has constraints such as latency, cost, and scalability, which influence how and where the model is deployed (cloud, edge devices, browsers, etc.)."
+    },
+    {
+      "id": "prompt",
+      "term": "Prompt",
+      "category": "Generative AI",
+      "shortDefinition": "The input text given to a language model to guide its output.",
+      "longDefinition": "A prompt is the instruction or context we provide to a language model. The quality and clarity of the prompt strongly affect the quality of the model’s response. Prompt engineering is the practice of designing, testing, and refining prompts to achieve reliable, useful outputs."
+    },
+    {
+      "id": "llm",
+      "term": "Large Language Model (LLM)",
+      "category": "Generative AI",
+      "shortDefinition": "A neural network trained on massive text corpora to understand and generate natural language.",
+      "longDefinition": "Large Language Models are deep neural networks with billions of parameters, trained on diverse text data. They can perform tasks such as summarization, translation, code generation, question answering, and more—often through simple prompting, without task-specific training."
+    },
+    {
+      "id": "agent",
+      "term": "AI Agent",
+      "category": "Agents & Tools",
+      "shortDefinition": "An AI system that can perceive, reason, and act to achieve goals, often using tools.",
+      "longDefinition": "An AI agent combines a model (such as an LLM) with memory, tools, and decision logic. Instead of just answering a single prompt, the agent can plan multi-step actions, call external APIs, interact with users or other systems, and adapt its behaviour to reach specific objectives."
+    },
+    {
+      "id": "symbolic-ai",
+      "term": "Symbolic AI",
+      "category": "History of AI",
+      "shortDefinition": "An early AI paradigm based on explicit rules, logic, and human-crafted representations of knowledge.",
+      "longDefinition": "Symbolic AI, also known as Good Old-Fashioned AI (GOFAI), represents knowledge through symbols and manipulates them using logical rules. It assumes that intelligence can be expressed through structured reasoning systems, such as logic programs, search algorithms, and expert systems. While influential in the early decades of AI, Symbolic AI struggled with ambiguity, perception, and learning—limitations that contributed to AI Winters."
+    },
+    {
+      "id": "expert-systems",
+      "term": "Expert Systems",
+      "category": "History of AI",
+      "shortDefinition": "Early AI programs designed to mimic the decision-making ability of human experts.",
+      "longDefinition": "Expert systems emerged in the 1970s and 1980s as rule-based programs capable of solving specialized problems, such as medical diagnosis or mineral exploration. They relied on extensive manually encoded knowledge bases and inference engines. Although commercially successful for a period, they were costly to maintain and struggled with uncertainty and scalability, contributing to the late-1980s AI Winter."
+    },
+    {
+      "id": "turing-test",
+      "term": "Turing Test",
+      "category": "Foundations of AI",
+      "shortDefinition": "A test proposed by Alan Turing to evaluate whether a machine can exhibit human-like intelligence.",
+      "longDefinition": "The Turing Test, introduced in Turing’s 1950 paper 'Computing Machinery and Intelligence,' assesses a machine’s ability to imitate human conversation convincingly enough to fool a human evaluator. Although debated and not a complete measure of intelligence, it remains a philosophical cornerstone in discussions about AI, cognition, and human-machine interaction."
+    },
+    {
+      "id": "perceptron",
+      "term": "Perceptron",
+      "category": "Core Concepts",
+      "shortDefinition": "An early neural model that represents a single artificial neuron capable of binary classification.",
+      "longDefinition": "The Perceptron, introduced by Frank Rosenblatt in 1957, is one of the earliest computational models of a neuron. It computes a weighted sum of inputs and applies a threshold to make a decision. While foundational, single-layer perceptrons could not solve nonlinear problems like XOR, a limitation that contributed to skepticism about neural networks during the first AI Winter. Nonetheless, it paved the way for modern deep learning."
+    },
+    {
+      "id": "backpropagation",
+      "term": "Backpropagation",
+      "category": "Training Algorithms",
+      "shortDefinition": "A learning algorithm that computes gradients efficiently, enabling multi-layer neural networks.",
+      "longDefinition": "Backpropagation, popularized in 1986 by Rumelhart, Hinton, and Williams, is the algorithm that made training deep neural networks feasible. It computes gradients layer by layer using the chain rule, allowing weights to be updated through gradient descent. Backpropagation revitalized neural network research and laid the groundwork for modern deep learning techniques."
+    },
+    {
+      "id": "transformers",
+      "term": "Transformers",
+      "category": "Modern AI",
+      "shortDefinition": "A neural network architecture based on attention mechanisms, enabling parallel processing of sequences.",
+      "longDefinition": "Transformers, introduced in 2017 in the paper 'Attention is All You Need,' replaced recurrent and convolutional approaches for sequence tasks. Their self-attention mechanism allows models to focus on different parts of input data simultaneously, enabling highly scalable training. Transformers power most state-of-the-art models in NLP, vision, multimodal AI, and large language models such as GPT, Claude, and Gemini."
+    },
+    {
+      "id": "dartmouth-workshop",
+      "term": "Dartmouth Workshop (1956)",
+      "category": "History of AI",
+      "shortDefinition": "The summer research project that marked the formal birth of Artificial Intelligence as a scientific field.",
+      "longDefinition": "The Dartmouth Workshop, held in the summer of 1956 at Dartmouth College, is widely considered the founding event of Artificial Intelligence. Organized by John McCarthy, Marvin Minsky, Claude Shannon, and Nathaniel Rochester, the proposal boldly stated that 'every aspect of learning or intelligence can in principle be so precisely described that a machine can be made to simulate it.' The workshop brought together leading researchers to explore ideas such as neural networks, reasoning, and symbolic problem-solving, establishing the foundational vision and terminology of AI research."
+    },
+    {
+      "id": "lisp-machines",
+      "term": "Lisp Machines",
+      "category": "History of AI",
+      "shortDefinition": "Specialized computers from the 1970s–1980s designed to efficiently run the Lisp programming language for AI applications.",
+      "longDefinition": "Lisp Machines were hardware systems built specifically to execute the Lisp programming language, which was widely used in early AI research. Developed at MIT and later commercialized by companies such as Symbolics and Lisp Machines Inc., these systems offered high performance for symbolic processing, garbage collection, and dynamic programming—key requirements of AI systems of the time. Although initially promising, Lisp Machines became commercially unviable due to rising competition from general-purpose workstations and the decline of expert systems, contributing to the AI Winter of the late 1980s."
+    },
+    {
+      "id": "mlp",
+      "term": "Multilayer Perceptron (MLP)",
+      "category": "Neural Networks",
+      "shortDefinition": "A neural network composed of multiple layers of perceptrons, capable of learning non-linear functions.",
+      "longDefinition": "A Multilayer Perceptron (MLP) extends the original perceptron by stacking multiple layers of neurons: an input layer, one or more hidden layers, and an output layer. With nonlinear activation functions and the use of backpropagation to adjust weights, MLPs can approximate complex, non-linear functions and solve problems like XOR that a single-layer perceptron cannot. MLPs are a foundational architecture in deep learning, influencing modern models such as Transformers and advanced neural networks."
+    },
+    {
+      "id": "weights",
+      "term": "Weights",
+      "category": "Neural Networks",
+      "shortDefinition": "Numerical parameters that determine how strongly each input influences a neuron's output.",
+      "longDefinition": "Weights are adjustable numerical values used in neural networks to control the contribution of each input signal. During training, weights are updated through optimization algorithms such as gradient descent to minimize the model’s error. Properly tuned weights allow the network to learn complex relationships in the data. In essence, weights encode the knowledge that the neural network acquires during training."
+    },
+    {
+      "id": "activation-function",
+      "term": "Activation Function",
+      "category": "Neural Networks",
+      "shortDefinition": "A mathematical function applied to a neuron's output that introduces non-linearity, enabling neural networks to learn complex patterns.",
+      "longDefinition": "An activation function transforms the weighted sum of inputs in a neuron into its final output. Without activation functions, neural networks would behave like simple linear models incapable of representing non-linear relationships. Common activation functions include ReLU, Sigmoid, and Tanh. The choice of activation function has a strong impact on training stability, gradient flow, and model performance."
+    },
+    {
+      "id": "gradient-descent",
+      "term": "Gradient Descent",
+      "category": "Training Algorithms",
+      "shortDefinition": "An optimization algorithm that adjusts model parameters by moving in the direction that reduces the loss function.",
+      "longDefinition": "Gradient Descent is a fundamental optimization method used to train neural networks. It works by computing the gradient of the loss function with respect to the model's parameters (such as weights) and updating these parameters in the opposite direction of the gradient to reduce error. Variants such as Stochastic Gradient Descent (SGD), Adam, and RMSProp improve efficiency and convergence in large-scale models. Gradient Descent is essential for learning in deep neural networks."
+    },
+    {
+      "id": "bias",
+      "term": "Bias (Neural Networks)",
+      "category": "Neural Networks",
+      "shortDefinition": "A learnable parameter added to the weighted sum inside a neuron, allowing the model to shift activation thresholds.",
+      "longDefinition": "In neural networks, a bias is an additional parameter that enables neurons to adjust their activation independently of input values. It acts like an intercept term in linear regression. Bias terms give neural networks flexibility to represent functions that do not necessarily pass through the origin, improving learning capability and allowing the model to fit more complex patterns."
+    },
+    {
+      "id": "loss-function",
+      "term": "Loss Function",
+      "category": "Training Algorithms",
+      "shortDefinition": "A mathematical function that measures how far a model’s predictions deviate from the expected output.",
+      "longDefinition": "The loss function quantifies the error of a machine learning model during training. By comparing the predicted valueswith the true labels, it provides a numerical score representing how well or poorly the model is performing. Optimization algorithms such as gradient descent adjust the model’s parameters to reduce this loss over time. Common loss functions include Cross-Entropy, Mean Squared Error, and Hinge Loss."
+    },
+    {
+      "id": "learning-rate",
+      "term": "Learning Rate",
+      "category": "Training Algorithms",
+      "shortDefinition": "A hyperparameter that controls the step size during the optimization process.",
+      "longDefinition": "The learning rate determines how much the model’s weights are updated at each step of gradient descent. A large learning rate allows faster progress but risks instability or divergence, while a small learning rate leads to more precise learning but can make training slow or stuck in local minima. Proper tuning of the learning rate is essential for efficient and stable neural network training."
+    },
+    {
+      "id": "epoch-batch-iteration",
+      "term": "Epoch, Batch, and Iteration",
+      "category": "Training Process",
+      "shortDefinition": "Fundamental units that describe how training data is processed during model learning.",
+      "longDefinition": "An epoch corresponds to one full pass through the entire training dataset. Because datasets can be large, training is usually divided into smaller subsets called batches, which are processed in smaller steps. An iteration refers to one update step using a single batch. For example, with 1,000 samples and a batch size of 100, one epoch consists of 10 iterations. Understanding these terms is essential for interpreting training logs, tuning performance, and managing computational cost."
+    },
+    {
+      "id": "embeddings",
+      "term": "Embeddings",
+      "category": "Representation Learning",
+      "shortDefinition": "Dense vector representations that capture semantic relationships between items such as words, images, or users.",
+      "longDefinition": "Embeddings transform high-dimensional or symbolic data into compact numerical vectors where similar concepts are placed closer together in vector space. They are fundamental to modern AI, powering tasks such as NLP, recommendation systems, and multimodal learning. Word2Vec, GloVe, and transformer-based embeddings are examples that encode meaning, context, or similarity in a mathematically structured way."
+    },
+    {
+      "id": "big-data",
+      "term": "Big Data",
+      "category": "Data",
+      "shortDefinition": "Extremely large datasets characterized by high volume, velocity, and variety, requiring specialized tools for processing and analysis.",
+      "longDefinition": "Big Data refers to datasets that exceed the capacity of traditional data-processing tools. It is commonly described by the '3 Vs': Volume (size), Velocity (speed of generation), and Variety (different formats). Big Data technologies such as Hadoop, Spark, and distributed storage systems enable scalable processing and analytics. In AI, big data is often essential for training large models and achieving high accuracy."
+    },
+    {
+      "id": "cuda",
+      "term": "CUDA",
+      "category": "Hardware Acceleration",
+      "shortDefinition": "A parallel computing platform by NVIDIA that enables GPUs to perform general-purpose computation.",
+      "longDefinition": "CUDA (Compute Unified Device Architecture) allows developers to run highly parallel algorithms directly on NVIDIA GPUs, dramatically accelerating tasks such as matrix multiplications and neural network training. Deep learning frameworks like PyTorch and TensorFlow leverage CUDA to achieve high-performance computation, making GPU acceleration a cornerstone of modern AI development."
+    },
+    {
+      "id": "random-forest",
+      "term": "Random Forest",
+      "category": "Machine Learning Models",
+      "shortDefinition": "An ensemble learning method that combines multiple decision trees to improve accuracy and robustness.",
+      "longDefinition": "Random Forest builds many decision trees during training and aggregates their predictions through voting (classification) or averaging (regression). By introducing randomness in feature selection and data subsets, it reduces overfitting and improves generalization. Random Forests are widely used due to their interpretability, robustness, and strong performance without extensive hyperparameter tuning."
+    },
+    {
+      "id": "svm",
+      "term": "Support Vector Machines (SVMs)",
+      "category": "Machine Learning Models",
+      "shortDefinition": "A supervised learning method that finds optimal hyperplanes to separate classes with maximum margin.",
+      "longDefinition": "SVMs classify data by identifying the hyperplane that maximizes the margin between classes. They can model non-linear relationships using kernel functions such as RBF or polynomial kernels. SVMs have strong theoretical foundations, work well on smaller datasets, and remain a reliable baseline for many classification tasks, even with the rise of deep learning."
+    },
+    {
+      "id": "gradient-boosting",
+      "term": "Gradient Boosting",
+      "category": "Machine Learning Models",
+      "shortDefinition": "An ensemble technique that builds models sequentially, where each new model corrects errors made by the previous ones.",
+      "longDefinition": "Gradient Boosting constructs a sequence of weak learners—often decision trees—where each new tree is trained to reduce the residual errors of the ensemble. By optimizing a loss function using gradient descent principles, it achieves high predictive accuracy. Popular implementations include XGBoost, LightGBM, and CatBoost, widely used in competitions and industry due to their power and flexibility."
+    },
+    {
+      "id": "alexnet",
+      "term": "AlexNet",
+      "category": "Deep Learning History",
+      "shortDefinition": "A breakthrough deep convolutional neural network that won the 2012 ImageNet competition by a large margin.",
+      "longDefinition": "AlexNet, introduced in 2012 by Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton, marked a turning point in the deep learning revolution. Using ReLU activations, dropout, data augmentation, and GPU training, it achieved a dramatic improvement in image classification accuracy on the ImageNet dataset. AlexNet demonstrated the power of deep CNNs and helped catalyze the widespread adoption of deep learning in computer vision."
+    },
+    {
+      "id": "imagenet",
+      "term": "ImageNet",
+      "category": "Datasets",
+      "shortDefinition": "A large-scale dataset of labeled images used to benchmark computer vision models.",
+      "longDefinition": "ImageNet is a massive dataset containing over 14 million labeled images across thousands of categories. The ImageNet Large Scale Visual Recognition Challenge (ILSVRC) became a central benchmark in computer vision research. Breakthroughs such as AlexNet, VGG, ResNet, and Inception were evaluated on ImageNet, driving rapid progress in deep learning and establishing modern standards for image classification performance."
+    },
+    {
+      "id": "cnns",
+      "term": "Convolutional Neural Networks (CNNs)",
+      "category": "Neural Networks",
+      "shortDefinition": "A class of neural networks designed to process grid-like data structures such as images by using convolution operations.",
+      "longDefinition": "Convolutional Neural Networks (CNNs) extract hierarchical patterns from data through convolutional filters that act as feature detectors. Early layers capture edges and textures, while deeper layers learn complex structures such as shapes or object parts. CNNs drastically improved image recognition, segmentation, and object detection tasks. Architectures such as LeNet, AlexNet, VGG, ResNet, and EfficientNet are all variants of CNN-based designs."
+    },
+    {
+      "id": "neural-network-architecture",
+      "term": "Neural Network Architecture",
+      "category": "Neural Networks",
+      "shortDefinition": "The structural design of a neural network, including its layers, connections, and computational flow.",
+      "longDefinition": "A neural network architecture defines how neurons and layers are organized and connected. It includes decisions about the number of layers, type of layers (dense, convolutional, recurrent, attention-based), activation functions, skip connections, and information flow. Architectural innovations such as CNNs, RNNs, LSTMs, Transformers, and residual networks have shaped modern AI, enabling neural networks to tackle increasingly complex tasks with high efficiency."
+    },
+    {
+      "id": "parameters",
+      "term": "Parameters",
+      "category": "Model Structure",
+      "shortDefinition": "The learnable values within a machine learning model that determine how it transforms inputs into outputs.",
+      "longDefinition": "Parameters are the internal components of a machine learning model—such as weights and biases—that are adjusted during training. Large Language Models (LLMs) can contain billions of parameters, allowing them to represent highly complex patterns. The number of parameters influences a model’s capacity, performance, memory footprint, and computational requirements during both training and inference."
+    },
+    {
+      "id": "rag",
+      "term": "Retrieval-Augmented Generation (RAG)",
+      "category": "Modern AI",
+      "shortDefinition": "A technique that enhances language model outputs by retrieving relevant external information during generation.",
+      "longDefinition": "RAG combines a retrieval system with a generative model. When a query is made, the system retrieves the most relevant documents or data (via embeddings or search), and the language model generates responses grounded in this retrieved context. This reduces hallucinations, improves factual accuracy, and allows models to access up-to-date or domain-specific knowledge without retraining."
+    },
+    {
+      "id": "mcp",
+      "term": "Model Context Protocol (MCP)",
+      "category": "AI Infrastructure",
+      "shortDefinition": "An open protocol that standardizes communication between AI models, tools, data sources, and servers.",
+      "longDefinition": "The Model Context Protocol (MCP) defines a structured way for AI models—especially LLMs—to interact with external tools, databases, APIs, and runtime environments. MCP enables secure, sandboxed capabilities such as reading files, executing tasks, querying services, and orchestrating multi-step workflows. By providing a unified interface, MCP simplifies integration, improves reproducibility, and forms the foundation of modern agentic and tool-using AI systems."
+    },
+    {
+      "id": "reasoning-ai",
+      "term": "Reasoning AI",
+      "category": "Agentic AI",
+      "shortDefinition": "AI systems designed to perform structured, multi-step reasoning to solve complex tasks beyond simple pattern matching.",
+      "longDefinition": "Reasoning AI focuses on enabling models to think through problems instead of merely predicting the next token. This includes step-by-step logical analysis, planning, verifying outcomes, using tools, and breaking tasks into subproblems. Modern techniques—such as Chain-of-Thought prompting, Tree-of-Thoughts, and deliberate reasoning models—aim to improve the reliability and depth of AI reasoning. Reasoning AI is foundational for advanced agents, scientific discovery, autonomous workflows, and systems that require consistent, interpretable decision-making."
+    }
+  ]
+}
